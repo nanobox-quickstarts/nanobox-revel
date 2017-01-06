@@ -19,15 +19,14 @@ cd nanobox-revel
 ## Run the app
 
 ```bash
+# Add a convenient way to access your app from the browser
+nanobox dns add local revel.dev
+
 # Run Revel as you would normally, with Nanobox
 nanobox run revel run nanobox-revel
 ```
 
 ## Check it out
-
-```bash
-# Add a convenient way to access your app from the browser
-nanobox dns add local revel.dev
 ```
 
 Visit your app at <a href="http://revel.dev:9000" target="\_blank">revel.dev:9000</a>
